@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">
+        <b>BLE Spam</b>
+    </string>
+    <string name="permission_granted">permission_granted</string>
+    <string name="permission_required">permission_required</string>
+    <string name="ok">ok</string>
+    <string name="samsung_easypair_watch">
+        <b>Samsung EasyPair Watch</b>
+    </string>
+    <string name="windows_swiftpair">
+        <b>Windows SwiftPair</b>
+    </string>
+    <string name="samsung_easypair_buds">
+        <b>Samsung EasyPair Buds</b>
+    </string>
+    <string name="android_fastpair">
+        <b>Android FastPair</b>
+    </string>
+    <string name="apple_device_popup">
+        <b>Apple Device Popup</b>
+    </string>
+    <string name="apple_action_modal">
+        <b>Apple Action Modal</b>
+    </string>
+    <string name="ios_17_crash">
+        <b>iOS 17 Crash</b>
+    </string>
+    <string name="ios_title">
+        <b>iOS</b>
+    </string>
+    <string name="android_title">
+        <b>Android</b>
+    </string>
+    <string name="windows_title">
+        <b>Windows</b>
+    </string>
+    <string name="thanks_to_willy_jl_spooks4576_and_ecto_1a">Thanks to @Willy-JL, @Spooks4576,
+        @ECTO-1A</string>
+    <string name="dev_by_tutozz">Dev by @tutozz</string>
+    <string name="todo">TODO</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="blink_indicator">Blink Indicator</string>
+    <string name="_1000ms">1000ms</string>
+</resources>

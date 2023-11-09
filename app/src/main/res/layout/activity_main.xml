@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <!-- Title -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/blink_indicator" />
+
+    <!-- Buttons -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:orientation="vertical">
+
+            <!-- iOS -->
+            <TextView
+                android:id="@+id/iosTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ios_title"
+                android:fontFamily="@font/notosans_medium"
+                android:textSize="11sp" />
+            <!-- iOS 17 Crash Button -->
+            <FrameLayout
+            android:id="@+id/ios17CrashButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+            <Button
+                android:id="@+id/ios17CrashButton"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/empty"
+                android:paddingStart="15dp"
+                android:paddingEnd="35dp"
+                android:text="@string/ios_17_crash"
+                android:fontFamily="@font/notosans_extrabold"
+                android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/ios17CrashCircle"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/blink_indicator"
+                    android:elevation="10dp"
+                    android:src="@drawable/grey_circle"
+                    tools:ignore="ImageContrastCheck" />
+        </FrameLayout>
+            <!-- Apple Action Modal Button -->
+            <FrameLayout
+                android:id="@+id/appleActionModalButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/appleActionModalButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/empty"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="35dp"
+                    android:fontFamily="@font/notosans_extrabold"
+                    android:text="@string/apple_action_modal"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/appleActionModalCircle"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="20dp"
+                    android:elevation="10dp"
+                    android:src="@drawable/grey_circle"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="@string/blink_indicator" />
+            </FrameLayout>
+            <!-- Apple Device Popup Button -->
+            <FrameLayout
+                android:id="@+id/appleDevicePopupButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/appleDevicePopupButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/empty"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="35dp"
+                    android:text="@string/apple_device_popup"
+                    android:fontFamily="@font/notosans_extrabold"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/appleDevicePopupCircle"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/blink_indicator"
+                    android:elevation="10dp"
+                    android:src="@drawable/grey_circle"
+                    tools:ignore="ImageContrastCheck" />
+            </FrameLayout>
+
+            <!-- Android -->
+            <TextView
+                android:id="@+id/androidTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_title"
+                android:fontFamily="@font/notosans_medium"
+                android:textSize="11sp" />
+            <!-- Android Fast Pair Button -->
+            <FrameLayout
+                android:id="@+id/androidFastPairButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/androidFastPairButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/empty"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="35dp"
+                    android:text="@string/android_fastpair"
+                    android:fontFamily="@font/notosans_extrabold"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/androidFastPairCircle"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/blink_indicator"
+                    android:elevation="10dp"
+                    android:src="@drawable/grey_circle"
+                    tools:ignore="ImageContrastCheck" />
+            </FrameLayout>
+            <!-- Samsung Easy Pair Buds Button -->
+            <FrameLayout
+                android:id="@+id/samsungEasyPairBudsButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/samsungEasyPairBudsButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/empty"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="35dp"
+                    android:text="@string/samsung_easypair_buds"
+                    android:fontFamily="@font/notosans_extrabold"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/samsungEasyPairBudsCircle"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="20dp"
+                    android:elevation="10dp"
+                    android:src="@drawable/grey_circle"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="@string/blink_indicator" />
+            </FrameLayout>
+            <!-- Samsung Easy Pair Watch Button -->
+            <FrameLayout
+                android:id="@+id/samsungEasyPairWatchButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:id="@+id/samsungEasyPairWatchButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/empty"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="35dp"
+                    android:text="@string/samsung_easypair_watch"
+                    android:fontFamily="@font/notosans_extrabold"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/samsungEasyPairWatchCircle"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/blink_indicator"
+                    android:elevation="10dp"
+                    android:src="@drawable/grey_circle"
+                    tools:ignore="ImageContrastCheck" />
+            </FrameLayout>
+
+            <!-- Windows SwiftPair -->
+            <TextView
+                android:id="@+id/windowsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notosans_medium"
+                android:text="@string/windows_title"
+                android:textSize="11sp" />
+            <FrameLayout
+                android:id="@+id/windowsSwiftPairWatchButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/windowsSwiftPairButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/empty"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="35dp"
+                    android:text="@string/windows_swiftpair"
+                    android:fontFamily="@font/notosans_extrabold"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/windowsSwiftPairCircle"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="20dp"
+                    android:elevation="10dp"
+                    android:src="@drawable/grey_circle"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="@string/blink_indicator" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="260dp"
+                    android:textAlignment="textEnd"
+                    android:textSize="12sp"
+                    android:text="@string/thanks_to_willy_jl_spooks4576_and_ecto_1a" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="@string/dev_by_tutozz"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/minusDelayButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/orange"
+                android:includeFontPadding="false"
+                android:text="@string/minus"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/delayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/_1000ms" />
+
+            <Button
+                android:id="@+id/plusDelayButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/orange"
+                android:includeFontPadding="false"
+                android:text="@string/plus"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>
