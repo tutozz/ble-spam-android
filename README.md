@@ -2,7 +2,7 @@
 ![Logo](./assets/icon.png)
 
 ## Overview 📋
-🕵️‍♂️ Based on the work of @Willy-JL, @Spooks4576, and @ECTO-1A, this Android app extends the capabilities of the Flipper Zero BLE Spam tool, enabling protocol spoofing across a wide range of devices and operating systems. It currently supports Apple Continuity Protocol, Google Fast Pair Protocol, Samsung EasySetup Protocol, and Microsoft SwiftPair Protocol.
+🕵️‍♂️ Based on the work of [Willy-JL](https://github.com/Willy-JL), [Spooks4576](https://github.com/Spooks4576), and [ECTO-1A](https://github.com/ECTO-1A), this Android app extends the capabilities of the Flipper Zero BLE Spam tool, enabling protocol spoofing across a wide range of devices and operating systems. It currently supports Apple Continuity Protocol, Google Fast Pair Protocol, Samsung EasySetup Protocol, and Microsoft SwiftPair Protocol.
 
 ## Key Features 🔑
 ### Apple Continuity Protocol Spoofing 🍏
