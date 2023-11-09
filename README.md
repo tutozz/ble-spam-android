@@ -1,5 +1,5 @@
 # BLE Spammer App 📡
-![Logo](assets/icon.png)
+![Logo](./assets/icon.png)
 
 ## Overview 📋
 🕵️‍♂️ Based on the work of @Willy-JL, @Spooks4576, and @ECTO-1A, this Android app extends the capabilities of the Flipper Zero BLE Spam tool, enabling protocol spoofing across a wide range of devices and operating systems. It currently supports Apple Continuity Protocol, Google Fast Pair Protocol, Samsung EasySetup Protocol, and Microsoft SwiftPair Protocol.
@@ -56,9 +56,9 @@ Here's what you should know:
 ## Screenshots 📸
 Here are some screenshots of the app in action:
 
-![Screenshot 1 - Home](assets/Screenshot_1.png)
-![Screenshot 2 - 2000ms Full Android Scope](assets/Screenshot_2.png)
-![Screenshot 3 - 20ms Windows/Samsung/iOS 17 Crash](assets/Screenshot_3.png)
+![Screenshot 1 - Home](./assets/Screenshot_1.jpg)
+![Screenshot 2 - 2000ms Full Android Scope](./assets/Screenshot_2.jpg)
+![Screenshot 3 - 20ms Windows/Samsung/iOS 17 Crash](./assets/Screenshot_3.jpg)
 
 **Caution**: This repository serves educational purposes exclusively. The maintainers are not responsible for any misuse or consequences arising from the application of this code.
 
